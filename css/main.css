@@ -1,0 +1,209 @@
+/* Белый цвет - #FFFFFF;
+Синий цвет акцента -  #4985FF;
+Тёмный цвет тайтлов - #323232;
+Чёрный цвет мини тайтлов - #000000;
+Серый цвет текстов - #999999;*/
+
+:root {
+    --bcg-main: #FFFFFF;
+    --main-title-light: #FFFFFF;
+    --color-nav:  #FFFFFF;
+
+    --bcg-secondary: #F6F6F8;
+
+    --accent-color: #4985FF;
+
+    --main-title-dark:  #323232;
+
+    --undertitled: #000000;
+
+    --color-text: #999999;
+}
+body {
+    background-color: var( #FFFFFF);
+    font-family: Montserrat;
+    font-weight: 400;
+    color:var(--color-text);
+    font-size: 16px;
+    line-height: 1.563;
+}
+ul {
+    list-style-type: none;
+}
+.hero-button {
+    margin: 0 auto;
+}
+.button {
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    color: var(--main-title-light);
+    background-color: var(--accent-color);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color:var(--accent-color);
+}
+.header__nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    /*color: #FFFFFF;*/
+    color:var(--color-text);
+}
+.header__nav-link:hover,
+.header__nav-link:focus {
+    color:var(--accent-color);
+}
+.hero-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+}
+.hero-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height:1.333;
+    text-align: center;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.472;
+    text-align: center;
+    color:var(--main-title-dark);
+}
+.mobile-text {
+    text-align: center;
+}
+.mobile-item-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.222;
+    color:var(--undertitled);
+}
+.mobile-item-text{
+    font-size: 14px;
+    line-height: 1.571;
+}
+.mobile-button {
+    margin: 0 auto;
+}
+.standarts {
+    background-color:var(--bcg-secondary);
+}
+
+.item-head {
+    font-size: 36px;
+    line-height: 1.472;
+    color:var(--undertitled);
+}
+.services-item-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.222;
+    color: var(--undertitled);
+}
+.element {
+    color: var(--accent-color); 
+}
+.projects-text {
+    text-align: center;
+}
+.projects-link {
+    margin: 0 auto;
+}
+.video {
+    background-color: teal;
+}
+.video-title {
+    color: var(--main-title-light);
+}
+.video-text {
+    text-align: center;
+    color: white;
+}
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+.subscribe {
+    text-align: center;
+}  
+.subscribe-action {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.222;
+    color: var(--undertitled);
+}
+.subscribe-inputform {
+    width: 489px;
+    height: 45px;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+}
+.subscribe-button {
+    width: 190px;
+    height: 45px;
+    background:var(--accent-color);
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0px 30px 30px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.25;
+    text-align: center;
+    color: #FFFFFF;
+}
+.subscribe-underform {
+    font-size: 13px;
+    line-height: 1.615;
+}
+.footer {
+    background-color:var(--bcg-secondary);
+}
+.footer-item-head {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.222;
+    color:var(--undertitled);
+}
+.footer-sublist-item-address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.571;
+}
+.footer-sublist-item-address:hover,
+.footer-sublist-item-address:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+.footer-sublist-link {
+    font-size: 14px;
+    line-height: 1.571;
+    color:var(--color-text);
+    text-decoration: none;
+}
+.footer-sublist-link:hover,
+.footer-sublist-link:focus {
+    color: var(--accent-color);
+}
+.footer-text {
+    font-size: 13px;
+    line-height: 1.615;
+    text-align: center;
+}
