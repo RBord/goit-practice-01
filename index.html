@@ -102,24 +102,26 @@
 
     <section class="services" id="services">
         <div class="container">
-            <h2 class="services-title section-title">Наши работы, на которых 
-                мы специализируемся</h2>
-            <a href="" class="services-button button">Все услуги</a>
+            <div class="container-top">
+                <h2 class="services-title section-title">Наши работы, на которых 
+                    мы специализируемся</h2>
+                <a href="" class="services-button button">Все услуги</a>
+            </div>
             <ul class="services-list">
                 <li class="services-item">
-                    <img src="./images/rectangle.png" alt="Человек сидит за компом" width="350" height="300">
+                    <img src="./images/rectangle.png" alt="Человек сидит за компом" width="350" height="300" class="services-item-img">
                     <h3 class="services-item-title"><span class="element">01.</span>Исследование и упаковка</h3>
                     <p class="services-item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                     <a href="" class="services-item-link link">Подробнее</a>
                 </li>
                 <li class="services-item">
-                    <img src="./images/rectangle.png" alt="Человек сидит за компом" width="350" height="300">
+                    <img src="./images/rectangle.png" alt="Человек сидит за компом" width="350" height="300" class="services-item-img">
                     <h3 class="services-item-title"><span class="element">01.</span>Исследование и упаковка</h3>
                     <p class="services-item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                     <a href="" class="services-item-link link">Подробнее</a>
                 </li>
                 <li class="services-item">
-                    <img src="./images/rectangle.png" alt="Человек сидит за компом" width="350" height="300">
+                    <img src="./images/rectangle.png" alt="Человек сидит за компом" width="350" height="300" class="services-item-img">
                     <h3 class="services-item-title"><span class="element">01.</span>Исследование и упаковка</h3>
                     <p class="services-item-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                     <a href="" class="services-item-link link">Подробнее</a>
@@ -131,81 +133,89 @@
     <!-- Cекция наши Проэкты-->
 
     <section class="projects" id="projects">
-        <h2 class="projects-title section-title">Наши проекты</h2>
-        <p class="projects-text" >Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
-        <ul class="projects-list">
-            <li class="projects-item"><img src="./images/projects.png" alt="Код на экране" width="255" height="255"></li>
-            <li class="projects-item"><img src="./images/projects.png" alt="Код на экране" width="255" height="255"></li>
-            <li class="projects-item"><img src="./images/projects.png" alt="Код на экране" width="255" height="255"></li>
-            <li class="projects-item"><img src="./images/projects.png" alt="Код на экране" width="255" height="255"></li>
-        </ul>
-        <a href="" class="projects-link button">Все проекты</a>
+        <div class="container">
+            <h2 class="projects-title section-title">Наши проекты</h2>
+            <p class="projects-text" >Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+            <ul class="projects-list">
+                <li class="projects-item"><img src="./images/projects.png" alt="Код на экране" width="255" height="255"></li>
+                <li class="projects-item"><img src="./images/projects.png" alt="Код на экране" width="255" height="255"></li>
+                <li class="projects-item"><img src="./images/projects.png" alt="Код на экране" width="255" height="255"></li>
+                <li class="projects-item"><img src="./images/projects.png" alt="Код на экране" width="255" height="255"></li>
+            </ul>
+            <a href="" class="projects-link button">Все проекты</a>
+        </div>
     </section>
 
     <!-- Видео -->
 
     <section class="video">
-        <h2 class="video-title section-title">Видео о нашей работе</h2>
-        <p class="video-text">Просто посмотрите, как мы работаем</p>
+        <div class="container">
+            <h2 class="video-title section-title">Видео о нашей работе</h2>
+            <p class="video-text">Просто посмотрите, как мы работаем</p>
+        </div>
     </section>
 
     <!-- Секция Подписка-->
     <section class="subscribe" id="news">
-        <h2 class="visually-hidden">Призыв к действию</h2>
-        <b class="subscribe-action">Подпишитесь на нашу рассылку</b>
-        <p class="subscribe-text">Полезные статьи, акции, новости - получите все это сейчас!</p>
-        <form action="#">
-            <input type="search" placeholder="Ваш e-mail" class="subscribe-inputform">
-            <button type="submit" class="subscribe-button">Подписаться</button>
-        </form>
-        <p class="subscribe-underform">Мы не шлем спам, и передаем никому ваши данные.</p>
+        <div class="container">
+            <h2 class="visually-hidden">Призыв к действию</h2>
+            <b class="subscribe-action">Подпишитесь на нашу рассылку</b>
+            <p class="subscribe-text">Полезные статьи, акции, новости - получите все это сейчас!</p>
+            <form action="#" class="subscribe-form">
+                <input type="search" placeholder="Ваш e-mail" class="subscribe-input">
+                <button type="submit" class="subscribe-button">Подписаться</button>
+            </form>
+            <p class="subscribe-underform">Мы не шлем спам, и передаем никому ваши данные.</p>
+        </div>
     </section>
 
     <!-- Подвал Страницы-->
 
     <footer class="footer" id="contacts">
-        <ul class="footer-list">
-            <li class="footer-list-item">
-                <b class="footer-item-head">Контактная информация</b>
-                <address>
+        <div class="container">
+            <ul class="footer-list">
+                <li class="footer-list-item">
+                    <b class="footer-item-head">Контактная информация</b>
+                    <address>
+                        <ul class="footer-sublist">
+                            <li class="footer-sublist-item"><a href="mailto:test@test.ru" class="footer-sublist-link"></a>test@test.ru</li>
+                            <li class="footer-sublist-item"><a href="tel:+87775556699" class="footer-sublist-link"></a>+8 777 555 66 99</li>
+                            <li class="footer-sublist-item"><a href="#" class="footer-sublist-link"></a>Москва, Бульвар Ленина 33</li>
+                        </ul>
+                    </address>
+                </li>
+                <li class="footer-list-item">
+                    <b class="footer-item-head">Основные ссылки</b>
+                    <nav>
+                        <ul class="footer-sublist">
+                            <li class="footer-sublist-item"><a href="" class="footer-sublist-link">Главная</a></li>
+                            <li class="footer-sublist-item"><a href="" class="footer-sublist-link">Наши проекты</a></li>
+                            <li class="footer-sublist-item"><a href="" class="footer-sublist-link">Наши услуги</a></li>
+                            <li class="footer-sublist-item"><a href="" class="footer-sublist-link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </li>
+                <li class="footer-list-item">
+                    <b class="footer-item-head">Наши проекты</b>
                     <ul class="footer-sublist">
-                        <li class="footer-sublist-item-address"><a href="mailto:test@test.ru"></a>test@test.ru</li>
-                        <li class="footer-sublist-item-address"><a href="tel:+87775556699"></a>+8 777 555 66 99</li>
-                        <li class="footer-sublist-item-address"><a href="#"></a>Москва, Бульвар Ленина 33</li>
+                        <li class="footer-sublist-item"><a href="" class="footer-sublist-link">РосНано</a></li>
+                        <li class="footer-sublist-item"><a href="" class="footer-sublist-link">Сколково</a></li>
+                        <li class="footer-sublist-item"><a href="" class="footer-sublist-link">Проект “Восток”</a></li>
+                        <li class="footer-sublist-item"><a href="" class="footer-sublist-link">ТЭЦ Калининграда</a></li>
                     </ul>
-                </address>
-            </li>
-            <li class="footer-list-item">
-                <b class="footer-item-head">Основные ссылки</b>
-                <nav>
+                </li>
+                <li class="footer-list-item">
+                    <b class="footer-item-head">Социальные сети</b>
                     <ul class="footer-sublist">
-                        <li><a class="footer-sublist-link" href="">Главная</a></li>
-                        <li><a class="footer-sublist-link" href="">Наши проекты</a></li>
-                        <li><a class="footer-sublist-link" href="">Наши услуги</a></li>
-                        <li><a class="footer-sublist-link" href="">Контакты</a></li>
+                        <li class="footer-sublist-item"><a href="" class="footer-sublist-link">VK.com</a></li>
+                        <li class="footer-sublist-item"><a href="" class="footer-sublist-link">Instagram</a></li>
+                        <li class="footer-sublist-item"><a href="" class="footer-sublist-link">Facebook</a></li>
+                        <li class="footer-sublist-item"><a href="" class="footer-sublist-link">Twitter</a></li>
                     </ul>
-                </nav>
-            </li>
-            <li class="footer-list-item">
-                <b class="footer-item-head">Наши проекты</b>
-                <ul class="footer-sublist">
-                    <li><a class="footer-sublist-link" href="">РосНано</a></li>
-                    <li><a class="footer-sublist-link" href="">Сколково</a></li>
-                    <li><a class="footer-sublist-link" href="">Проект “Восток”</a></li>
-                    <li><a class="footer-sublist-link" href="">ТЭЦ Калининграда</a></li>
-                </ul>
-            </li>
-            <li class="footer-list-item">
-                <b class="footer-item-head">Социальные сети</b>
-                <ul class="footer-sublist">
-                    <li><a class="footer-sublist-link" href="">VK.com</a></li>
-                    <li><a class="footer-sublist-link" href="">Instagram</a></li>
-                    <li><a class="footer-sublist-link" href="">Facebook</a></li>
-                    <li><a class="footer-sublist-link" href="">Twitter</a></li>
-                </ul>
-            </li>
-        </ul>
-        <p class="footer-text">(с)2019. Все права защищены.</p>
+                </li>
+            </ul>
+            <p class="footer-text">(с)2019. Все права защищены.</p>
+        </div>
     </footer>
 </body>
 </html>
