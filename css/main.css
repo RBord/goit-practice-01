@@ -89,8 +89,10 @@ ul {
 .header__nav-item:not(:last-child) {
     margin-right: 40px;
 }
+
 .header__nav-link {
-    display: block;
+    display:flex;
+
     padding-top: 40px;
     padding-bottom: 40px;
 
@@ -104,6 +106,7 @@ ul {
 
     color:var(--color-nav);
 }
+
 .header__nav-link:hover,
 .header__nav-link:focus {
     border-bottom: 2px solid var(--color-nav);
@@ -182,6 +185,35 @@ ul {
     justify-content: space-around; 
     margin-bottom: 55px;
 }
+.mobile-item {
+    display: flex;
+}
+.icon-group {
+    fill:var(--accent-color);
+
+}
+
+.item-icon-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #4985FF;
+    border-radius: 50%;
+}
+.item-icon-out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-right: 17px;
+}
+
 .mobile-item-title {
     margin-bottom: 12px;
 
@@ -215,15 +247,20 @@ ul {
 }
 .standarts-list {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
-.standarts-list-item {
-    text-align: right;
-}
+
 .standarts-list-item:not(:last-child){
     margin-right: 100px;
+}
+.item-icon {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.web-icon {
+    fill: var(--accent-color);
 }
 .standarts-text {
     width: 489px;
@@ -237,9 +274,6 @@ ul {
 }
 
 .item-head {
-    display: inline-block;
-    margin-bottom: 17px;
-
     font-size: 36px;
     line-height: 1.472;
     color:var(--undertitled);
