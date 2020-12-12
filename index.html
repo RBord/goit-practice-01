@@ -204,6 +204,14 @@
         <div class="container">
             <h2 class="video-title section-title">Видео о нашей работе</h2>
             <p class="video-text">Просто посмотрите, как мы работаем</p>
+            <div class="video-img-bg">
+                <button class="watch-video">
+                    <svg class="video-icon" width="60" height="60">
+                        <use href="./images/sprite.svg#icon-play-button"></use>
+                    </svg>
+                    Смотреть видео
+                </button>
+            </div>
         </div>
     </section>
 
@@ -214,8 +222,10 @@
             <b class="subscribe-action">Подпишитесь на нашу рассылку</b>
             <p class="subscribe-text">Полезные статьи, акции, новости - получите все это сейчас!</p>
             <form action="#" class="subscribe-form">
-                <input type="search" placeholder="Ваш e-mail" class="subscribe-input">
-                <button type="submit" class="subscribe-button">Подписаться</button>
+                <div class="wrapper">
+                    <input type="search" placeholder="Ваш e-mail" class="subscribe-input">
+                    <button type="submit" class="subscribe-button">Подписаться</button>
+                </div>
             </form>
             <p class="subscribe-underform">Мы не шлем спам, и передаем никому ваши данные.</p>
         </div>
