@@ -31,7 +31,7 @@
             <p class="hero-text">Передовая IT студия</p>
             <h1 class="hero-title">Мы создаем легкие решения 
             сложных задач и проблем</h1>
-            <a href="#projects" class="hero-button button">Наши проекты</a>
+            <button type="button" class="hero-button button" data-modal-open>Наши проекты</button>
         </div>
     </section>
 
@@ -291,5 +291,56 @@
             <p class="footer-text">(с)2019. Все права защищены.</p>
         </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+
+            <button type="button" class="modal__button" data-modal-close>
+                &#215;
+            </button>
+
+            <form class="modal__form">
+
+                <h2 class="modal__title">Форма обратной связи</h2>
+
+                <label class="modal__field modal__field-icon">
+                    <input type="text" name="text" class="modal__text" placeholder="Имя">
+                    <svg class="modal__icon modal__icon-fox " width="35" height="35">
+                        <use href="./images/sprite.svg#icon-fox"></use>
+                    </svg>
+                    <svg class="modal__icon modal__icon-bear" width="35" height="35">
+                        <use href="./images/sprite.svg#icon-bear"></use>
+                    </svg>
+                </label>
+
+                <label class="modal__field">
+                    <input type="email" name="text" class="modal__text" placeholder=" ">
+                    <span class="modal__label">Почта</span>
+                    <svg class="modal__icon" width="35" height="35">
+                        <use href="./images/sprite.svg#icon-bat"></use>
+                    </svg>
+                </label>
+
+                <label class="modal__field">
+                    <input type="tel" name="text" class="modal__text" placeholder=" ">
+                    <span class="modal__label">Телефон</span>
+                    <svg class="modal__icon" width="35" height="35">
+                        <use href="./images/sprite.svg#icon-giraffe"></use>
+                    </svg>
+                </label>
+
+                <label class="modal__field">
+                    <textarea name="comment" id="" placeholder="Оставить комментарий"></textarea>
+                </label>
+
+                <label>
+                    <input type="checkbox">
+                    <span>Я согласен со всеми условиями!</span>
+                </label>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
