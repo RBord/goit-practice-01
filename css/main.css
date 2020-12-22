@@ -722,7 +722,6 @@ ul {
     left: 51px;
     top: 50%;
     transform: translateY(-50%);
-
 }
 
 .modal__text {
@@ -736,6 +735,7 @@ ul {
     top:-30%;
     color: teal;
 }
+
 .modal__text:hover::placeholder,
 .modal__text:focus::placeholder {
     color: teal;
