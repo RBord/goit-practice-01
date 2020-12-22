@@ -392,7 +392,7 @@ ul {
     display: flex;
     margin-bottom: 50px;
 }
-.projects-item:not(:last-child){
+.projects-item:not(:nth-child(4n)){
     margin-right: 30px;
 }
 .projects-link {
