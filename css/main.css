@@ -392,14 +392,17 @@ ul {
     display: flex;
     margin-bottom: 50px;
 }
-.projects-item:not(:nth-child(4n)){
+/* .projects-item:not(:nth-child(4n)){
     margin-right: 30px;
-}
+} */
+
 .projects-link {
     margin-left: auto;
     margin-right: auto;
 }
-
+.slick-prev:before, .slick-next:before {
+    color:black;
+}
 /* SECTION VIDEO */
 
 .video {
